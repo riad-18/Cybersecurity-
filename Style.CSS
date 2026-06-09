@@ -1,0 +1,106 @@
+body {
+    margin: 0px;
+    background-color: rgba(238, 238, 238, 0.959);
+}
+
+header {
+    color: hwb(0 2% 15%);
+    font-size: 2em;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+aside {
+    margin-left: 10px;
+
+    font-style: italic;
+    font-size: larger;
+}
+
+.nav ul {
+    display: center;
+    list-style: none;
+    background-color: black;
+    height: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+.nav a {
+    color: aliceblue;
+    margin: 45px;
+    font-size: 1.1em;
+}
+
+.nav a:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+span {
+    background-color: blue;
+    color: white;
+    font-size: larger;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    align-content: space-between;
+    column-gap: 1em;
+    row-gap: 1em;
+    justify-content: space-around;
+}
+
+.box {
+    width: 300px;
+    height: fit-content;
+    font-size: larger;
+    text-align: center;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    column-gap: 1em;
+    row-gap: 1em;
+}
+
+#box1 {
+    background-color: aliceblue;
+    align-self: auto;
+    animation-name: glow1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#box2 {
+    color: white;
+    background-color: black;
+    animation-name: glow2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#box3 {
+    background-color: red;
+    animation-name: glow3;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes glow1 {
+    50% {
+        box-shadow: 0px 0px 50px rgb(172, 150, 30);
+    }
+}
+
+@keyframes glow2 {
+    50% {
+        box-shadow: 0px 0px 50px hsl(0, 4%, 22%);
+    }
+}
+
+@keyframes glow3 {
+    50% {
+        box-shadow: 0px 0px 50px rgb(161, 5, 5);
+    }
+}
