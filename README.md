@@ -1,2 +1,2 @@
 # Cybersecurity
-This project represint a brife explantion on CyberSecuirty and at the same time a quick practice of Html and CSS knowledge 
+Cybersecurity educational webpage covering the definition, reality, and ethical framework of the field. Built with HTML and CSS as a frontend fundamentals exercise.
